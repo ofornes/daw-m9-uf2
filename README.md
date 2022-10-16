@@ -13,3 +13,4 @@ Als enllaços següents s'explica la resolució de cada element plantejat.
 El document següent explica el procés i la resolució:
 
 * [CAS 2 Integració de contingut interactiu](CAS2-Integració%20de%20contingut%20interactiu.md)
+

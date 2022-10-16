@@ -2,7 +2,7 @@
 
 ## Nota prèvia
 
-Amb l'objectiu de desenvolupar el web correctament, s'ha utilitzat un docker amb un nginx "connectat" al port 80 local i amb el directori "resolucio-html" com arrel del web. S'ha creat un script de línia de comandes bash (run-web.sh) que engega el contenidor amb els paràmetres d'execucions adients.
+Amb l'objectiu de desenvolupar el web correctament, s'ha utilitzat un docker amb un nginx "connectat" al port 80 local i amb el directori "CAS2/resolucio-html" com arrel del web. S'ha creat un script de línia de comandes bash (run-web.sh) que engega el contenidor amb els paràmetres d'execucions adients.
 
 ## Plantejament
 
