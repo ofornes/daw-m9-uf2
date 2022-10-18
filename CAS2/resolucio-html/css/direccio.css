@@ -1,0 +1,66 @@
+div {
+	display: block;
+}
+
+.parallax {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 832px;
+	width: 100%;
+}
+
+.image-parallax {
+	background-image: url("../images/teacherparallax.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.cortina-parallax {
+	background-color: rgba(59, 188, 214, 0.9);
+	background-size: cover;
+}
+
+.grup-direccio {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+.titol-direccio {
+	font-family: "Amatic SC";
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	font-size: 62px;
+	color: white;
+}
+
+h3.titol-direccio span {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.titol-linia {
+	height: 4px;
+	margin-top: 20px;
+	width: 155px;
+	background-color: white;
+}
+
+.separador-25 {
+	width: 100%;
+}
+
+.text-elipsis {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
