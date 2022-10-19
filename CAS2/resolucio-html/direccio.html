@@ -8,9 +8,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" media="screen" href="css/comu.css">
     <link rel="stylesheet" media="screen" href="css/direccio.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#mrsheeley").hover(function () {
+                let playPromise = document.getElementsByTagName("audio")[0].play();
+                if(playPromise != undefined) {
+                    playPromise.catch((error) => {
+                        if(error.name === "NotAllowedError") {
+                            window.alert("Per poder sentir el missatge de Mrs Heeley ha de permetre la reproducció d'àudio!");
+                        }
+                    });
+                }
+            }, function () {
+                document.getElementsByTagName("audio")[0].pause();
+                document.getElementsByTagName("audio")[0].load();
+            });
+        });
+    </script>
 </head>
 
 <body>
+    <audio>
+        <source src="media/enregistrament.m4a"></source>
+        El seu navegador no suporta audio HTML5
+    </audio>
     <main>
         <div class="parallax image-parallax">
             <div class="parallax cortina-parallax">
@@ -77,7 +99,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-persona">
+                        <div id="mrsheeley" class="col-persona">
                             <div class="titol-persona">
                                 <h3>
                                     <a class="link-persona" title="Mrs Heeley" href="#">Mrs Heeley</a>
