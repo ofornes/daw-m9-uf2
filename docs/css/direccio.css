@@ -1,0 +1,130 @@
+div {
+	display: block;
+}
+
+h3 {
+	font-family: "Amatic SC";
+	line-height: 54px;
+	font-weight: 700;
+	font-style: normal;
+	color: #6f4792;
+	font-size: 48px;
+	margin: 0 0 15px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	letter-spacing: 0.01em;
+}
+
+.parallax {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 780px;
+	width: 100%;
+}
+
+.image-parallax {
+	background-image: url("../images/teacherparallax.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.cortina-parallax {
+	background-color: rgba(59, 188, 214, 0.9);
+	background-size: cover;
+}
+
+.grup-direccio {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+.titol-direccio {
+	font-family: "Amatic SC";
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	font-size: 62px;
+	color: white;
+}
+
+h3.titol-direccio span {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span.titol-linia {
+	height: 4px;
+	margin-top: 20px;
+	width: 155px;
+	background-color: white;
+}
+
+.separador-25 {
+	width: 100%;
+	height: 25px;
+}
+
+.separador-100 {
+	width: 100%;
+	height: 100px;
+}
+
+.text-elipsis {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.row-persones {
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+
+.col-persona {
+	display: inline-block;
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 20%;
+}
+
+
+.titol-persona {
+	text-align: center;
+}
+
+.titol-persona > h3 > a.link-persona:hover {
+	color: #6F4793;
+}
+
+a.link-persona {
+	color: white;
+	text-decoration: none;
+}
+
+a.link-persona:hover {
+	text-decoration: none;
+	color: white;
+	transition: all 300ms linear 0ms;
+}
+
+.categoria-persona {
+	margin-bottom: 30px;
+}
+
+.image-persona {
+	width: 253px;
+	height: 390px;
+}

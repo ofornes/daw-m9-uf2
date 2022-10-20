@@ -1,0 +1,134 @@
+.col-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.vc-col {
+	position: relative;
+	min-height: 1px;
+	box-sizing: border-box;
+}
+
+.vc-col:hover {
+	transform: rotate(360deg);
+	transition-property: transform;
+	transition-delay: 0.3s;
+	transition-duration: 1s;
+}
+
+.col-container .col-inner {
+	padding-top: 35px;
+	width: 100%;
+}
+
+.col-inner {
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+}
+
+.col-inner::before {
+	content: " ";
+	display: table;
+}
+
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+.container {
+	position: relative;
+	z-index: 99;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: fit-content;
+}
+
+.content-align-center {
+	text-align: center;
+}
+
+.gif-body {
+	display: block;
+}
+
+.gif-item {
+	text-align: center;
+}
+
+.gif-image {
+	display: grid;
+	place-items: center;
+	position: relative;
+	border-radius: 100%;
+	width: 130px;
+	height: 130px;
+	border-width: 3px;
+	border-style: solid;
+	margin: auto;
+}
+
+.gif-title {
+	font-family: "Amatic SC";
+    line-height: 58px;
+    font-weight: 700;
+    font-style: normal;
+    color: #6f4792;
+    font-size: 53px;
+}
+
+.gif-pre-school {
+	color: #34bfdb !important;
+	background-color: #34bfdb !important;
+    border-color: #0f9fbc !important;
+}
+
+.gif-pre-school img {
+	width: 67px;
+	height: 86px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+
+.gif-nursery {
+	color: #da5192 !important;
+	background-color: #da5192 !important;
+    border-color: #ba2b6f !important;
+}
+
+.gif-nursery img {
+	width: 91px;
+	height: 86px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+
+.gif-after-school {
+	color: #ea8360 !important;
+	background-color: #ea8360 !important;
+    border-color: #c05631 !important;
+}
+
+.gif-after-school img {
+	width: 91px;
+	height: 86px;
+	margin: auto;
+	vertical-align: middle;
+}
