@@ -69,6 +69,12 @@ span.titol-linia {
 
 .separador-25 {
 	width: 100%;
+	height: 25px;
+}
+
+.separador-100 {
+	width: 100%;
+	height: 100px;
 }
 
 .text-elipsis {

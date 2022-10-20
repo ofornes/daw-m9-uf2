@@ -3,7 +3,7 @@
 
 Es demanen canvis sobre el logotip:
 
-![logotip original](./CAS1/logotip//logo-kindergarten.png)
+![logotip original](./images/logo-kindergarten.png)
 
 Els canvis demanats són:
 
@@ -101,7 +101,7 @@ Un cop aplicat els canvis, procedeixo a exportar la imatge en format PNG. De man
 
 ## Resultat
 
-| Original                                                   | Canviat                                                      |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| ![logotip original](./CAS1/logotip//logo-kindergarten.png) | ![logotip canviat](./CAS1/logotip/CAS-1-logo-kindergarten.png) |
+| Original                                            | Canviat                                                      |
+| --------------------------------------------------- | ------------------------------------------------------------ |
+| ![logotip original](./images/logo-kindergarten.png) | ![logotip canviat](./images/CAS-1-logo-kindergarten-canviat.png) |
 

@@ -128,6 +128,10 @@ a.logo img {
 	display: inline-block;
 }
 
+.icon-ext {
+	width: 45px;
+}
+
 .home-icon {
 	background-image: url("../images/icones/originals/home.svg");
 }

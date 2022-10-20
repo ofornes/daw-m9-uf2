@@ -17,6 +17,8 @@
                     playPromise.catch((error) => {
                         if(error.name === "NotAllowedError") {
                             window.alert("Per poder sentir el missatge de Mrs Heeley heu de permetre la reproducció d'àudio!");
+                        } else {
+                            window.error("No es pot reproduïr el missatge de Mrs Heeley");
                         }
                     });
                 }
@@ -42,13 +44,13 @@
                             <span class="titol-text">Meet Our Teachers</span>
                             <span class="titol-linia"></span>
                         </h3>
-                        <div class="separador" style="height: 25px;"></div>
+                        <div class="separador-25"></div>
                     </div>
                     <div>
                         <span class="text-elipsis">Elipsis magna a terminal nulla elementum morbi elite forte maecenas
                             est magna vehicula est node maecenas.</span>
                     </div>
-                    <div class="separador" style="height: 100px;"></div>
+                    <div class="separador-100"></div>
                     <!--
                         Ara quatre elements tipus inline-block que representaran a cada mestre 
                     -->

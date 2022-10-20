@@ -11,8 +11,9 @@
 
 .vc-col:hover {
 	transform: rotate(360deg);
-	transition-delay: 0.05s;
-	transition-duration: 0.5s;
+	transition-property: transform;
+	transition-delay: 0.3s;
+	transition-duration: 1s;
 }
 
 .col-container .col-inner {
@@ -42,7 +43,7 @@
 	}
 }
 
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
 	.container {
 		width: 1170px;
 	}
