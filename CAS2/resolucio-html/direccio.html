@@ -16,7 +16,7 @@
                 if(playPromise != undefined) {
                     playPromise.catch((error) => {
                         if(error.name === "NotAllowedError") {
-                            window.alert("Per poder sentir el missatge de Mrs Heeley ha de permetre la reproducció d'àudio!");
+                            window.alert("Per poder sentir el missatge de Mrs Heeley heu de permetre la reproducció d'àudio!");
                         }
                     });
                 }
@@ -30,7 +30,7 @@
 
 <body>
     <audio>
-        <source src="media/enregistrament.m4a"></source>
+        <source src="media/enregistrament.mp3"></source>
         El seu navegador no suporta audio HTML5
     </audio>
     <main>
