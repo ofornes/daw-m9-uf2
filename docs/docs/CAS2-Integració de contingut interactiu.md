@@ -199,7 +199,9 @@ El codi es troba al github.com:
 
 https://github.com/ofornes/daw-m9-uf2
 
-La web amb la solució del CAS2 es troba instal·lada a:
+La web amb la solució del CAS2 es troba instal·lada i visitable a:
 
-https://daw.fornes.cat
+https://ofornes.github.io/daw-m9-uf2/
+
+
 
