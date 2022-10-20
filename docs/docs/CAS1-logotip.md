@@ -97,7 +97,7 @@ El procediment per a canviar e color dels ninos és semblant a l'anterior, tot c
 
 Un cop aplicat els canvis, procedeixo a exportar la imatge en format PNG. De manera que tant la resolució com la mida romanen inalterades. El resultat final és:
 
-![logotip canviat](./CAS1/logotip/CAS-1-logo-kindergarten.png)
+![logotip canviat](./images/CAS-1-logo-kindergarten-canviat.png)
 
 ## Resultat
 
