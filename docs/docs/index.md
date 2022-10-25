@@ -8,7 +8,7 @@ Als enllaços següents s'explica la resolució de cada element plantejat.
 * [Barra de navegació](CAS1-barra%20de%20navegació.md)
 * [Serveis de la llar d’infants](CAS1-Serveis%20de%20la%20llar%20d’infants.md)
 * [Àudio](CAS1-Audio.md)
-* Vídeo (pendent)
+* [Vídeo](CAS1-Vídeo.html)
 
 ## Cas 2 Integració de contingut interactiu
 

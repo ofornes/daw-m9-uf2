@@ -1,0 +1,18 @@
+1
+00:03:20,070 --> 00:03:23,130
+Aquesta escena permet veure
+els subtítols, 
+
+2
+00:03:23,140 --> 00:03:25,040
+que es poden activar o desactivar
+
+3
+00:03:25,040 --> 00:03:28,030
+Estan associats amb l'idioma català
+
+3
+00:03:28,050 --> 00:03:32,100
+Però podriem afegir altres pistes
+en altres idiomes
+
